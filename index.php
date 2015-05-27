@@ -3,7 +3,7 @@ header('Content-Type: text/plain');
 $key = $_GET['memcache_key'];
 $siteCache = $_GET['site_to_cache'];
 if(!isset($key)) {
-    echo 'No key provided =[';
+    echo 'No key provided =[ =P lel';
     die();
 }
 $memcache = new Memcache();
