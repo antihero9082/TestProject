@@ -1,0 +1,9 @@
+application: ecstatic-galaxy-95819
+version: 1
+module: default
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: index.php
